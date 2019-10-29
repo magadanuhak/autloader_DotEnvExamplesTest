@@ -1,0 +1,21 @@
+{
+    "name": "boss/test-autoload",
+    "description": "My Test autoload",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Daniel Maga",
+            "email": "magadanuhak@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^3.6"
+    },
+    "autoload": {
+       "psr-4": {
+           "site\\" : ""
+       }
+    }
+}
